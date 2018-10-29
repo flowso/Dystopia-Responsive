@@ -74,10 +74,18 @@ body {
     empty-cells: hide;
 }
 
+<<<<<<< HEAD
+=======
+
+h5 {
+  margin: 0;
+}
+>>>>>>> c192556e7d3d1a355d410b1c0cdb6c6cf9498dc2
 
 .jumbotron {
   margin: 0;
   border-radius: 0;
+<<<<<<< HEAD
 }
 
 .spacebetween {
@@ -88,4 +96,8 @@ justify-content: space-between;
 
 .buttonsize {
   width: 45%;
+=======
+  background-color: white;
+
+>>>>>>> c192556e7d3d1a355d410b1c0cdb6c6cf9498dc2
 }
