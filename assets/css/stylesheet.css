@@ -42,13 +42,14 @@ body {
 
 .overskrifter {
   font-size: 30px;
+  text-align: center;
 }
 @media (min-width: 991.98px) {
   .overskrifter {
     font-size: 50px;
+    text-align: left;
   }
 }
-
 
 .jumbotronfix {
   margin-bottom: 0;
@@ -63,7 +64,7 @@ body {
 
 @media (min-width: 991.98px) {
   .jumbotronfix {
-    height:75vh;
+    height:90vh;
   }
 
 
@@ -73,12 +74,18 @@ body {
     empty-cells: hide;
 }
 
-h5 {
-  margin: 0;
-}
 
 .jumbotron {
   margin: 0;
   border-radius: 0;
-  background-color: white;
+}
+
+.spacebetween {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.buttonsize {
+  width: 45%;
 }
