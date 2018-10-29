@@ -64,3 +64,8 @@ body {
     opacity: 10%;
     empty-cells: hide;
 }
+
+#billet-container{
+  line-height: 0.4;
+  
+}
