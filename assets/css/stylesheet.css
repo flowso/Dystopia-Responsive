@@ -1,3 +1,4 @@
+/*Footer starter her*/
 .top-buffer {
   display: flex;
   align-items: flex-end;
@@ -13,6 +14,7 @@
   padding-top: 16px;
   padding-bottom: 0;
 }
+/*Footer sluter her*/
 
 @font-face {
     font-family: scaryfont;
@@ -63,6 +65,12 @@ body {
   .jumbotronfix {
     height:75vh;
   }
+
+
+.opacityarea {
+    background-color: #d3d3d3;
+    opacity: 10%;
+    empty-cells: hide;
 }
 
 h5 {
