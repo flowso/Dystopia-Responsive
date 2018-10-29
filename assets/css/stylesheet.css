@@ -24,6 +24,8 @@
   font-family: scaryfont, cursive;
 }
 
+/*
+
 body {
   position: relative;
   width: 100%;
@@ -34,10 +36,17 @@ body {
   display: block;
 }
 
-.display-4 {
-  font-size: 35px;
-  text-align: center;
+*/
+
+.overskrifter {
+  font-size: 30px;
 }
+@media (min-width: 991.98px) {
+  .overskrifter {
+    font-size: 50px;
+  }
+}
+
 
 .jumbotronfix {
   margin-bottom: 0;
@@ -47,12 +56,21 @@ body {
   justify-content: center;
   border-radius: 0;
   background: 0;
-  color: white;
-  height: 45vh;
+  color: black;
 }
 
 @media (min-width: 991.98px) {
   .jumbotronfix {
-    height:90vh;
+    height:75vh;
   }
+}
+
+h5 {
+  margin: 0;
+}
+
+.jumbotron {
+  margin: 0;
+  border-radius: 0;
+  background-color: white;
 }
