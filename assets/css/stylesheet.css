@@ -57,3 +57,10 @@ body {
   .jumbotronfix {
     height:90vh;
   }
+
+
+.opacityarea {
+    background-color: #d3d3d3;
+    opacity: 10%;
+    empty-cells: hide;
+}
