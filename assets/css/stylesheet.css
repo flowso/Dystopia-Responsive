@@ -75,3 +75,13 @@ justify-content: space-between;
 .buttonsize {
   width: 45%;
 }
+
+.buttonsize:hover {
+  background: #911926;
+}
+
+body {
+  background-image: url("../img/blood.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
