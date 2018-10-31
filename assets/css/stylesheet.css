@@ -42,11 +42,12 @@ body {
   border-radius: 0;
   background: 0;
   color: black;
+  padding: 0;
 }
 
 @media (min-width: 991.98px) {
   .jumbotronfix {
-    height:90vh;
+    height:92.5vh;
   }
 
 
@@ -66,6 +67,14 @@ h5 {
   border-radius: 0;
 }
 
+.blood {
+    background-image: url("../img/blood1.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+
 .spacebetween {
 width: 100%;
 display: flex;
@@ -74,4 +83,17 @@ justify-content: space-between;
 
 .buttonsize {
   width: 45%;
+}
+
+.buttonsize:hover {
+  background: #911926;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
 }
