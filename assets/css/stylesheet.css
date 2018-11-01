@@ -83,12 +83,25 @@ display: flex;
 justify-content: space-between;
 }
 
+#indkøbskurv {
+  background: #28a745;
+  transition: all ease 0.3s;
+}
+
+#indkøbskurv:hover {
+  opacity: 0.6;
+}
+
 .buttonsize {
   width: 45%;
+  background: #911926;
+  color: white;
+  border: 0;
+  transition: all ease 0.3s ;
 }
 
 .buttonsize:hover {
-  background: #911926;
+  opacity: 0.6;
 }
 
 body, html {
