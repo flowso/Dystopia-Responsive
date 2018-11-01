@@ -28,10 +28,12 @@ body {
 }
 @media (min-width: 991.98px) {
   .overskrifter {
-    font-size: 50px;
+    font-size: 45px;
     text-align: left;
   }
 }
+
+
 
 .jumbotronfix {
   margin-bottom: 0;
