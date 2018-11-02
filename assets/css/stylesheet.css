@@ -115,4 +115,11 @@ body, html {
 .buyticket {
   background: #911926;
   color: white;
+  border: 0;
+  transition: all ease 0.3s;
+}
+
+.buyticket:hover {
+  opacity: 0.6;
+  background: grey;
 }
