@@ -47,10 +47,9 @@ body {
   padding: 0;
 }
 
-@media (min-width: 991.98px) {
-  .jumbotronfix {
-    height:92.5vh;
-  }
+.forside-bg {
+  height: 92.82vh;
+}
 
 
 .opacityarea {
@@ -111,4 +110,9 @@ body, html {
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
+}
+
+.buyticket {
+  background: #911926;
+  color: white;
 }
